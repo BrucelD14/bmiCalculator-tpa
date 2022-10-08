@@ -1,0 +1,105 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1c2541;
+    background-color: #f8ffe5;
+}
+
+#wrapper{
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    text-align: center;
+    background-color: white;
+    padding: 7em;
+    border-radius: 10px;
+    box-shadow: 6px 5px 5px 0px rgba(3,7,30,0.35);
+    -webkit-box-shadow: 6px 5px 5px 0px rgba(3,7,30,0.35);
+    -moz-box-shadow: 6px 5px 5px 0px rgba(3,7,30,0.35);
+}
+
+
+form .form-header{
+    margin: 20px 0;
+    padding: 10px;
+}
+
+form .form-header h1{
+    margin: 10px 0;
+    padding: 5px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+form .form-header h4{
+    padding: 5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+form .form-input{
+    margin: 5px;
+    padding: 5px;
+}
+
+form .form-input label{
+    display: block;
+    margin: 5px 0px;
+    padding: 3px;
+    font-size: 18px;
+    text-align: left;
+    width: 100%;
+}
+
+form .form-input input{
+    width: 100%;
+    margin: 5px 0px;
+    padding: 10px 5px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #403d39;
+}
+
+form .form-input span{
+    color: rgb(207, 1, 1);
+    font-weight: 600;
+}
+
+form button{
+    margin: 15px;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: none;
+    background-color: #007200;
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover{
+    color: #007200;
+    background-color: white;
+    border: 2px solid #007200;
+    transition: .2s ease-in-out;
+}
+
+form .result-bmi{
+    margin: 5px;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 700;
+}
